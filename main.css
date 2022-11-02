@@ -1,0 +1,51 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: #faf0e6; */
+    /* background-image: url(img/alexander-grey-NkQD-RHhbvY-unsplash.jpg); */
+}
+.profile {
+    position: absolute;
+    right: 8px;
+    top: 65px;
+}
+.lonney-gif{
+    float: right;
+    position: absolute;
+    right: 8px;
+    top: 530px;
+}
+.more {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+h1, h2, p, footer {
+    padding-left: 5px;
+}
+
+.ending {
+    margin-top: 30px;
+}
+.middle-text {
+    padding-top: 20px;
+}
+h2 {
+    color: #1d5911; 
+}
+footer, h1 {
+    background-color: #1d5911;
+    color: #ffffff
+}
+.drink {
+    right: 8px;
+    top: 450px;
+}
+.blue {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.picture {
+    right: 8px;
+    top: 80px;
+    position: absolute;
+}
