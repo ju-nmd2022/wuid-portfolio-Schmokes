@@ -4,30 +4,46 @@
     /* background-image: url(img/alexander-grey-NkQD-RHhbvY-unsplash.jpg); */
 }
 .profile {
-    position: absolute;
-    right: 8px;
-    top: 65px;
+    width: 50%;
+    height: auto;
 }
-.lonney-gif{
+/* .lonney-gif{
     float: right;
     position: absolute;
     right: 8px;
     top: 530px;
-}
-.more {
+} */
+/* .more {
     padding-top: 20px;
     padding-bottom: 50px;
-}
+} */
+
+
 h1, h2, p, footer {
     padding-left: 5px;
 }
 
-.ending {
+/* .ending {
     margin-top: 30px;
-}
-.middle-text {
+} */
+/* .middle-text {
     padding-top: 20px;
+} */
+
+/* .round{
+    min-width: 20vh;
+    width: 18rem;
+    height: 25rem;
+    object-fit: cover;
+} */
+
+img{
+    border-radius: 15px;
+    padding: 10px; 
+    width: 100%;
+    height: auto;  
 }
+
 h2 {
     color: #1d5911; 
 }
@@ -39,13 +55,44 @@ footer, h1 {
     right: 8px;
     top: 450px;
 }
+
 .blue {
     display: flex;
     flex-direction: row;
     gap: 300px;
 }
+
+/* .cheese{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} */
+.group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 .picture {
     right: 8px;
     top: 80px;
     position: absolute;
+}
+
+.honey{
+    float: right;
+}
+
+.my-honey{
+    width: 50%;
+    height: auto;
+}
+
+.my-pic{
+    width: 30%;
+    height: auto;
+}
+
+.profile-pic{
+    width: 40%;
+    height: auto;
 }
