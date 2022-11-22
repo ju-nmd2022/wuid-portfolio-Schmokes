@@ -1,8 +1,95 @@
-* {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-color: #faf0e6; */
-    /* background-image: url(img/alexander-grey-NkQD-RHhbvY-unsplash.jpg); */
+/* The following 38 lines of code are adapted from https://www.youtube.com/watch?v=fs923Mu5EXY, accessed: 2022-11-22 */
+.hero {
+    grid-area: hero;
+    width: 100%;
+    height: 100vh;
+    background: url(./img/Smoky.JPG) no-repeat center / cover;
+   /*  The animation is not part of the cite above */
+   position: relative;
 }
+
+.animation {
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s; 
+}
+
+@keyframes slidein {
+    from {
+       transform: translateY(200px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+.animation2 {
+    animation-name: changeColour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 8s;
+}
+
+@keyframes changeColour {
+    0% {
+        background-color: rgb(245, 245, 245);
+        color: darkseagreen;
+    }
+    25% {
+        background-color: darkseagreen;
+        color:rgb(245, 245, 245);
+    }
+    50% {
+        background-color: rgb(245, 245, 245);
+        color: darkseagreen;
+    }
+    75% {
+        background-color: darkseagreen;
+        color:rgb(245, 245, 245);
+    }
+    100% {
+        background-color: rgb(245, 245, 245);
+        color: darkseagreen;
+    }
+}
+
+
+.hero-container {
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-hero {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.text-hero {
+    font-size: 1.5rem;
+    max-width: 65%;
+    margin-bottom: 1rem;
+}
+
+
+.button {
+    background-color:rgba(245, 245, 245, 0.884);
+    border: none;
+    color: darkseagreen;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
 .profile {
     width: 50%;
     height: auto;

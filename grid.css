@@ -1,26 +1,30 @@
 html, body {
     margin: 0px;
+    padding: 0px;
     background-color: #fcf8e8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .container {
     display: grid;
     grid-template-columns: 0.5fr 4fr 0.5fr;
-    grid-template-rows: 3rem 1fr 3rem;
+    grid-template-rows: 3rem 100vh 1fr 3rem;
     grid-template-areas: 
         'header header header'
+        'hero hero hero'
         '. content .'
         'footer footer footer';
     min-height: 100vh;
 }
 
 .header{
-    background-color: #94b49f;
+    background-color:darkseagreen;
     grid-area: header;
     text-align: center;
     align-self: center;
-    font-size: 27px;
-    padding: 9px;
+    font-size: 30px;
+    padding: 12px;
 }
 
 .content{
